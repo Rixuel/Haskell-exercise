@@ -1,0 +1,49 @@
+#format : numero du test -- resultat
+
+1 -- False
+2 -- True
+3 -- False
+4 -- True
+5 -- 2
+6 -- -1
+7 -- 0
+8 -- 1
+9 -- "54321"
+10 -- "abcba"
+11 -- ""
+12 -- "a"
+13 -- ""
+14 -- "wajdi"
+15 -- "wajd"
+16 -- ""
+17 -- [1,3]
+18 -- []
+19 -- []
+20 -- [111]
+21 -- [1,3,5,4,2]
+22 -- [2]
+23 -- []
+24 -- [1,11,33,53,95,110,4,8,6,2]
+
+# crypter_decrypter
+# les résultats des tests 25, 26, 27, 28, 29 et 31 vont dépendre de la fonction de cryptage.
+# Dans cet exercice, la fonction a utilisée pour crypter un caractère "x" est (crypter x = caractere ((code_ascii x) + y)) ou "x" est un caractère et "y" est la clé du cryptage. Évidemment, la fonction inverse est utilisée pour le décryptage.
+
+25 -- "Wkh#txlfn#eurzq#ir{#mxpsv#ryhu#wkh#od}|#grj"
+26 -- "Qeb\GSnrf`h\GS_oltk\GSclu\GSgrjmp\GSlsbo\GSqeb\GSi^wv\GSald"
+27 -- "Just a simple test"
+28 -- "Just a simple test"
+29 -- "Wkh#txlfn#eurzq#ir{#mxpsv#ryhu#wkh#od}|#grj"
+30 -- True
+31 -- "Wkh#txlfn#eurzq#ir{#mxpsv#ryhu#wkh#od}|#grj"
+32 -- "The quick brown fox jumps over the lazy dog"
+33 -- "The quick brown fox jumps over the lazy dog"
+34 -- "Operation non autorisee"
+35 -- "The quick brown fox jumps over the lazy dog"
+
+# KNN
+36 -- 3.1622777
+37 -- 4.7958317
+38 -- [13.0,13.076696,0.0]
+39 -- [12.247449,12.328828,4.7958317]
+40 -- "class3"
